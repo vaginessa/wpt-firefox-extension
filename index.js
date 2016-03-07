@@ -14,8 +14,5 @@ var button = buttons.ActionButton({
 });
 
 function handleClick(state) {
-	
 	tabs.open( 'http://www.webpagetest.org/?url=' + encodeURIComponent( tabs.activeTab.url ) );
-
-
 }
